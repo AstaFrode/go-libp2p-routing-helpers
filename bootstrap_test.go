@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/AstaFrode/go-libp2p/core/routing"
 	"github.com/hashicorp/errwrap"
-	"github.com/libp2p/go-libp2p/core/routing"
 )
 
 type bootstrapRouter struct {
