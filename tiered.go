@@ -4,12 +4,12 @@ import (
 	"context"
 	"io"
 
+	record "github.com/AstaFrode/go-libp2p-record"
 	ci "github.com/AstaFrode/go-libp2p/core/crypto"
 	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/AstaFrode/go-libp2p/core/routing"
 	"github.com/hashicorp/go-multierror"
 	"github.com/ipfs/go-cid"
-	record "github.com/libp2p/go-libp2p-record"
 )
 
 // Tiered is like the Parallel except that GetValue and FindPeer
